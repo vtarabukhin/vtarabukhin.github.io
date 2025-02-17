@@ -2,8 +2,8 @@
 #### Game Structure
 ```mermaid
 flowchart TD
-    A[start] --> B[Random Number Generated (1-100)]
-    B --> C[Make a Numerical Guess (1-100)]
+    A[start] --> B[Random Number Generated]
+    B --> C[Make a Numerical Guess]
     C --> D{Correct?}
     D -->|Yes| F[Guess is Correct]
     D -->|No| E[Is The Guess too High?]
@@ -16,8 +16,8 @@ flowchart TD
 ```
 #### Step Description
 1. **_Start_** : Game starts.
-2. **_Random Number Generated (1-100)_** : A randomly generated number is created.
-3. **_Make a Numerical Guess (1-100)_** : Player makes a numerical guess 1-100.
+2. **_Random Number Generated_** : A randomly generated number is created.
+3. **_Make a Numerical Guess_** : Player makes a numerical guess 1-100.
 4. **_Correct?_** : The game checks to see if the player's guess matches the number.
 5. **_Is The Guess too High_** : If the player's original guess is incorrect the game checks if it is too high or not.
 6. If the incorrect guess is too high **_Too High, Guess Again_** is displayed.
